@@ -4,7 +4,7 @@ export const headerData = {
   links: [
     {
       text: 'Kiểm tra màu sắc',
-      href: '#',
+      href: '/kiem-tra-mau-sac',
     },
     {
       text: 'Bảng giá',
@@ -15,7 +15,8 @@ export const headerData = {
       links: [
         {
           text: 'DisplayCAL',
-          href: getPermalink('https://www.dropbox.com/sh/6squicub6nkpmkb/AADPjncb5xLrbOrAA5jFZIeaa?dl=0'),
+          href: ('https://www.dropbox.com/sh/6squicub6nkpmkb/AADPjncb5xLrbOrAA5jFZIeaa?dl=0'),
+          target: '_blank',
         },
       ],
     },
@@ -24,7 +25,7 @@ export const headerData = {
       href: getBlogPermalink(),
     },
   ],
-  actions: [{ type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }],
+  actions: [{ type: 'button', text: 'Liên hệ', href: '/lien-he' }],
 };
 
 export const footerData = {

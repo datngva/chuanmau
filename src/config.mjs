@@ -3,7 +3,7 @@ import defaultImage from './assets/images/default.png';
 const CONFIG = {
   name: 'Chuẩn Màu',
 
-  origin: 'https://astrowind.vercel.app',
+  origin: 'https://chuanmau.com/',
   basePathname: '/',
   trailingSlash: false,
 
@@ -12,9 +12,9 @@ const CONFIG = {
     'Cân màu màn hình, laptop, bảng vẽ tại Hà nội.',
   defaultImage: defaultImage,
 
-  defaultTheme: 'light', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  defaultTheme: 'light:only', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
-  language: 'en',
+  language: 'vi',
   textDirection: 'ltr',
 
   dateFormatter: new Intl.DateTimeFormat('en', {
