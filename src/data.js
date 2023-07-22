@@ -8,7 +8,7 @@ export const headerData = {
     },
     {
       text: 'Bảng giá',
-      href: '#',
+      href: '/bang-gia',
     },
     {
       text: 'Tải xuống',

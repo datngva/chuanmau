@@ -1,0 +1,75 @@
+---
+import { SITE } from '~/config.mjs';
+import Headline from '~/components/blog/Headline.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const meta = {
+  title: SITE.title,
+  description: SITE.description,
+  dontUseTitleTemplate: true,
+};
+
+import Pricing from '~/components/pricing.astro';
+const pricing = [
+  {
+    name: "Cân màu tại nhà",
+    price: "200.000đ",
+    popular: true,
+    features: [
+      "Cân chỉnh màu tại nhà",
+      "Từ hình thứ 2 giá 100.000đ",
+      "Lưu trữ Profile",
+      "Support 24h",
+    ],
+    button: {
+      text: "Liên hệ",
+      link: "/lien-he",
+    },
+  },
+  {
+    name: "Cân màu tại Shop",
+    price: {
+      monthly: "150.000đ",
+    },
+    popular: false,
+    features: [
+      "Cân chỉnh màu tại nhà",
+      "Từ màn thứ 2 giá 100.000đ",
+      "Lưu trữ Profile",
+      "Support 24h",
+    ],
+    button: {
+      text: "Liên hệ",
+      link: "/lien-he",
+    },
+  },
+  {
+    name: "Cân màu nhiều màn hình",
+    price: "Custom",
+    popular: false,
+    features: [
+      "Cân chỉnh màu tại nhà",
+      "Giảm giá từ màn hình thứ 2",
+      "Lưu trữ Profile",
+      "Support 24h",
+    ],
+    button: {
+      text: "Liên hệ",
+      link: "/lien-he",
+    },
+  },
+];
+---
+
+<Layout {meta}>
+    <section class="px-6 mt-16 mb-16 mx-auto max-w-4xl">
+      <Headline
+        subtitle="Simple & Predictable pricing. No Surprises."
+      >
+      Bảng giá  
+      </Headline>
+    </section>
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-screen-lg px-6 mt-16 mb-16 mx-auto max-w-4xl">
+        {pricing.map((item) => <Pricing plan={item} />)}
+      </div>
+</Layout>
