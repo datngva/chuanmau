@@ -1,0 +1,47 @@
+---
+import { SITE } from '~/config.mjs';
+import Headline from '~/components/blog/Headline.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Contactform from '~/components/contactform.astro';
+import { Icon } from "astro-icon";
+const meta = {
+  title: SITE.title,
+  description: SITE.description,
+  dontUseTitleTemplate: true,
+};
+---
+
+<Layout {meta}>
+    <section class="px-6 mt-16 mb-16 mx-auto max-w-4xl">
+      <Headline
+        subtitle="Liên hệ với chúng tôi để được tư vấn nhanh nhất."
+      >
+        Liên hệ
+      </Headline>
+    </section>
+    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16 mb-16">
+        <div>
+          <h2 class="font-medium text-2xl text-gray-800">Liên hệ với Chuẩn màu</h2>
+          <p class="text-lg leading-relaxed text-slate-500 mt-3">
+            Điền vào biểu mẫu hoặc liên hệ với chúng tôi theo địa chỉ.
+          </p>
+          <div class="mt-5">
+            <div class="flex items-center mt-2 space-x-2 text-gray-600">
+              <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
+              <span>Tòa A1 IA20 Ciputra, Đông Ngạc, Bắc Từ Liêm, Hà Nội</span>
+            </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
+              <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
+                href="mailto:dat.ngva@gmail.com"
+                >dat.ngva@gmail.com</a
+              >
+            </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
+              <Icon class="text-gray-400 w-4 h-4" name="uil:phone" /><a
+                href="tel:0879025858">0879 02 5858</a
+              >
+            </div>
+          </div>
+        </div>
+    <div>
+        <Contactform />
+      </div>
+</Layout>
