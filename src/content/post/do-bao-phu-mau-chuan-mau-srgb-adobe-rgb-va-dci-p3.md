@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-01-06T00:00:00Z
+publishDate: 2020-12-19T00:00:00Z
 title: Độ Bao Phủ Màu, Chuẩn Màu SRGB, Adobe RGB Và DCI-P3
 excerpt: Độ bao phủ màu (color gamut) là gì và các chuẩn màu cơ bản như sRGB, Adobe RGB và DCI-P3.
 image: ~/assets/images/chuanmau-blog-rgb.jpg

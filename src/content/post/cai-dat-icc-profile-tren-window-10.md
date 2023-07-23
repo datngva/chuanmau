@@ -1,6 +1,6 @@
 ---
-publishDate: 2023-01-12T00:00:00Z
-title: Cài Đặt ICC Profile Trên Window
+publishDate: 2021-02-26T00:00:00Z
+title: Cài đặt Profile màu trên hệ điều hành Window
 description: Để cài đặt ICC profile (proflies màu) trên Windows, làm theo các bước sau...
 excerpt: Để cài đặt ICC profile (proflies màu) trên Windows, làm theo các bước sau...
 image: ~/assets/images/cai-dat-profile.jpg
