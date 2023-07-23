@@ -24,8 +24,8 @@ const CONFIG = {
     timeZone: 'UTC',
   }),
 
-  googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-  googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
+  googleAnalyticsId: "G-RTJ2270PK0", // or "G-XXXXXXXXXX",
+  googleSiteVerificationId: 'RrFlTylhRlRngAVxH3qU8l8xD6a1SGDj_w8CMwS2hxA',
 
   blog: {
     disabled: false,
