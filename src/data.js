@@ -16,7 +16,7 @@ export const headerData = {
         {
           text: 'DisplayCAL',
           href: ('https://www.dropbox.com/sh/6squicub6nkpmkb/AADPjncb5xLrbOrAA5jFZIeaa?dl=0'),
-          target: '_blank',
+          target: "_blank",
         },
       ],
     },

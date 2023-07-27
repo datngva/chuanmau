@@ -22,17 +22,18 @@ const meta = {
 
   <Hero
     callToAction={{ text: 'Bảng giá', href: '/bang-gia', icon: 'tabler:download' }}
-    callToAction2={{ text: 'Liên hệ', href: '/lien-he' }}
+    callToAction2={{ text: '0879 025858', href: 'tel:0879025858', icon: 'tabler:phone' }}
     image={{ src: import('~/assets/images/hero.png'), alt: 'Chuanmau Hero Image' }}
   >
     <Fragment slot="title">
-      Chuẩn Màu <span class="hidden xl:inline"></span><br/>
+      Chuẩn Màu <span class="hidden xl:inline"></span><br />
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">Chuẩn Màu</span> cung cấp dịch vụ <span class="font-semibold">cân màu màn hình máy tính, laptop, bảng vẽ,… </span>tại Hà nội.
-         Màn hình sau khi cân màu giúp việc chỉnh sửa, in ấn, xuất bản file hạn chế bị sai màu sắc.
+        <span class="font-semibold">Chuẩn Màu</span> cung cấp dịch vụ <span class="font-semibold"
+          >cân màu màn hình máy tính, laptop, bảng vẽ,…
+        </span>tại Hà nội. Màn hình sau khi cân màu giúp việc chỉnh sửa, in ấn, xuất bản file hạn chế bị sai màu sắc.
       </span>
     </Fragment>
   </Hero>
@@ -48,20 +49,17 @@ const meta = {
     items={[
       {
         title: 'Bước 1: <span class="font-medium">Cân bằng trắng</span>',
-        description:
-          ' Thiết lập cân bằng trắng trên màn hình theo nhiệt độ màu 6500K tiêu chuẩn',
+        description: ' Thiết lập cân bằng trắng trên màn hình theo nhiệt độ màu 6500K tiêu chuẩn',
         icon: 'tabler:package',
       },
       {
         title: 'Bước 2: <span class="font-medium">Cân màu bằng máy đo X-RITE I1</em>',
-        description:
-          'Thiết lập cân chỉnh màu bằng máy đo màu.',
+        description: 'Thiết lập cân chỉnh màu bằng máy đo màu.',
         icon: 'tabler:letter-case',
       },
       {
         title: 'Bước 3: <span class="font-medium">Lưu Profile màu</span>',
-        description:
-          'Sau khi cân màu, mỗi màn hình sẽ được xuất ra 1 file Profile.Icc để sử dụng cho lần sau.',
+        description: 'Sau khi cân màu, mỗi màn hình sẽ được xuất ra 1 file Profile.Icc để sử dụng cho lần sau.',
         icon: 'tabler:paint',
       },
       {
@@ -84,49 +82,40 @@ const meta = {
     items={[
       {
         title: 'Kinh nghiệm',
-        description:
-          'Chúng tôi đã có hơn 3 năm kinh nghiệm trong việc chẩn đoán, cân chỉnh màu màn hình.',
+        description: 'Chúng tôi đã có hơn 3 năm kinh nghiệm trong việc chẩn đoán, cân chỉnh màu màn hình.',
         icon: 'flat-color-icons:smartphone-tablet',
       },
       {
         title: 'Thiết bị đo màu chuẩn',
-        description:
-          'Chúng tôi chỉ sử dụng thiết bị X-RITE I1DISPLAY để cân chỉnh nhằm mang lại kết quả tốt nhất.',
+        description: 'Chúng tôi chỉ sử dụng thiết bị X-RITE I1DISPLAY để cân chỉnh nhằm mang lại kết quả tốt nhất.',
         icon: 'flat-color-icons:cable-release',
       },
       {
         title: 'Tiết kiệm thời gian - chi phí',
-        description:
-          'Khách hàng nhận được tư vấn nhanh, giúp tối ưu hóa thời gian và chi phí.',
+        description: 'Khách hàng nhận được tư vấn nhanh, giúp tối ưu hóa thời gian và chi phí.',
         icon: 'flat-color-icons:currency-exchange',
       },
       {
         title: 'Hỗ trợ nhanh chóng',
-        description:
-          'Chúng tôi sẽ hỗ trợ bạn trong suốt quá trình trước và sau khi cân chỉnh màu sắc màn hình.',
+        description: 'Chúng tôi sẽ hỗ trợ bạn trong suốt quá trình trước và sau khi cân chỉnh màu sắc màn hình.',
         icon: 'flat-color-icons:support',
       },
       {
         title: 'Cân chỉnh màu tại nhà',
-        description:
-          'Chúng tôi cân chỉnh màu tại nhà khách hàng trong khu vực Hà nội',
+        description: 'Chúng tôi cân chỉnh màu tại nhà khách hàng trong khu vực Hà nội',
         icon: 'flat-color-icons:home',
       },
       {
         title: '10 phút',
-        description:
-          'Chỉ 10 phút cân chỉnh, chúng tôi có thể tối ưu hóa màu sắc trên màn hình của bạn.',
+        description: 'Chỉ 10 phút cân chỉnh, chúng tôi có thể tối ưu hóa màu sắc trên màn hình của bạn.',
         icon: 'flat-color-icons:clock',
       },
-      
     ]}
   />
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <LatestPosts
-    title="Blog"
-  />
+  <LatestPosts title="Blog" />
 
   <!-- FAQs Widget ******************* -->
 
@@ -144,24 +133,23 @@ const meta = {
         {
           question: 'Có cần cân chỉnh màu định kỳ không?',
           answer:
-            "Có. Thường trong thời gian sử dụng sẽ bị sai lệch nên chúng tôi đề xuất bạn cân chỉnh lại sau 6 tháng đến 1 năm sử dụng.",
+            'Có. Thường trong thời gian sử dụng sẽ bị sai lệch nên chúng tôi đề xuất bạn cân chỉnh lại sau 6 tháng đến 1 năm sử dụng.',
         },
         {
-          question: "Chi phí cân chỉnh màu màn hình là bao nhiêu?",
+          question: 'Chi phí cân chỉnh màu màn hình là bao nhiêu?',
           answer:
-            "Chi phí cân chỉnh màu màn hình chỉ từ 150k/màn hình, Bạn vui lòng liên hệ với chúng tôi để được tư vấn chi tiết.",
+            'Chi phí cân chỉnh màu màn hình chỉ từ 150k/màn hình, Bạn vui lòng liên hệ với chúng tôi để được tư vấn chi tiết.',
         },
       ],
       [
         {
-          question: "Màn hình laptop có cân chỉnh màu được không?",
+          question: 'Màn hình laptop có cân chỉnh màu được không?',
           answer:
-            "Màn hình laptop có 2 loại: 60% và 100% sRGB nên tùy chất lượng màn hình mà chúng tôi sẽ tư vấn cho bạn có nên cân hay không.",
+            'Màn hình laptop có 2 loại: 60% và 100% sRGB nên tùy chất lượng màn hình mà chúng tôi sẽ tư vấn cho bạn có nên cân hay không.',
         },
         {
           question: 'Bảng vẽ Wacom, Xp-Pen, Huion,... có cân chỉnh màu được không?',
-          answer:
-            "Hoàn toàn được bạn nhé. Bản chất chỉ là màn hình rời nên chúng tôi có thể cân chỉnh được. ",
+          answer: 'Hoàn toàn được bạn nhé. Bản chất chỉ là màn hình rời nên chúng tôi có thể cân chỉnh được. ',
         },
       ],
     ]}
@@ -176,12 +164,11 @@ const meta = {
       icon: 'tabler:download',
     }}
   >
-    <Fragment slot="title">
-      Đánh giá màn hình
-    </Fragment>
+    <Fragment slot="title">Đánh giá màn hình</Fragment>
 
     <Fragment slot="subtitle">
-      Thiết bị của bạn có đủ đáp ứng để cân chỉnh màu hay không?<br class="hidden md:inline" />  Hãy liên hệ với chúng tôi để được tư vấn trực tiếp.
+      Thiết bị của bạn có đủ đáp ứng để cân chỉnh màu hay không?<br class="hidden md:inline" /> Hãy liên hệ với chúng tôi
+      để được tư vấn trực tiếp.
     </Fragment>
   </CallToAction>
 </Layout>
