@@ -83,6 +83,8 @@ export const footerData = {
     { ariaLabel: 'Telegram', icon: 'tabler:brand-telegram', href: 'https://t.me/datnvd/' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/chuanmaucom' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    { ariaLabel: 'RSS', icon: 'tabler:sitemap', href: 'https://chuanmau.com/sitemap-0.xml' },
+  
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(/favicon.ico)]"></span>

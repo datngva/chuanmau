@@ -12,7 +12,7 @@ const CONFIG = {
     'Cân màu màn hình, laptop, bảng vẽ tại Hà nội.',
   defaultImage: defaultImage,
 
-  defaultTheme: 'light', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  defaultTheme: 'light:only', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
   language: 'vi',
   textDirection: 'ltr',
