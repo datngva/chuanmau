@@ -1,5 +1,5 @@
 ---
-publishDate: 2021-02-26T00:00:00Z
+publishDate: 2023-07-30T00:00:00Z
 title: Hướng dẫn cài đặt ICC Profile trên MacOS
 description: Trong bài viết này, chúng ta sẽ hướng dẫn từng bước cách cài đặt profile ICC trên macOS, giúp bạn tận dụng đầy đủ tính năng quản lý màu sắc cho các dự án sáng tạo.
 excerpt: Trong bài viết này, chúng ta sẽ hướng dẫn từng bước cách cài đặt profile ICC trên macOS, giúp bạn tận dụng đầy đủ tính năng quản lý màu sắc cho các dự án sáng tạo.
