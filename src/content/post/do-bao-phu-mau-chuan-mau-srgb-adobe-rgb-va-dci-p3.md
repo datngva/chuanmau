@@ -1,22 +1,22 @@
 ---
-publishDate: 2020-12-19T00:00:00Z
-title: Độ Bao Phủ Màu, Chuẩn Màu SRGB, Adobe RGB Và DCI-P3
-excerpt: Độ bao phủ màu (color gamut) là gì và các chuẩn màu cơ bản như sRGB, Adobe RGB và DCI-P3.
-image: ~/assets/images/chuanmau-blog-rgb.jpg
-tags:
-  - blog
-  - chuanmau
-  - canmaumanhinh
-canonical: https://chuanmau.com/do-bao-phu-mau-chuan-mau-srgb-adobe-rgb-va-dci-p3
+title: 'Độ Bao Phủ Màu, Chuẩn Màu SRGB, Adobe RGB Và DCI-P3'
+description: >-
+  Độ bao phủ màu hay dải màu (color gamut) là một thuật ngữ chỉ tập hợp con, nằm
+  trong giới hạn của các màu sắc trong thực tế. Nó biểu hiện khả năng của các
+  thiết bị cho nhiếp ảnh và đồ họa kỹ thuật số trong việc tái tạo màu sắc.
+date: '2021-03-18T00:00:00+07:00'
+heroImage: /assets/chuanmau-blog-rgb.jpg
 ---
-
 ## Độ Bao Phủ Màu Là Gì?
 
 Độ bao phủ màu hay dải màu (color gamut) là một thuật ngữ chỉ tập hợp con, nằm trong giới hạn của các màu sắc trong thực tế. Nó biểu hiện khả năng của các thiết bị cho nhiếp ảnh và đồ họa kỹ thuật số trong việc tái tạo màu sắc.
 
 Vậy chuẩn mực đối với độ bao phủ màu là gì ? sRGB, DCI-P3 hay Adobe RGB là các dải màu tiêu chuẩn và có thể xem như các hệ quy chiếu. Chúng được dùng để ước lượng tương đối khả năng thể hiện màu sắc của các thiết bị tiêu biểu trong lĩnh vực này như ghi hình, hiển thị và in ấn kỹ thuật số.
 
+![chuanmau color gamut](/assets/color-gamut-5.jpeg)
+
 ## Chuẩn Màu SRGB, Adobe RGB Và DCI-P3
+
 #### sRGB – Tiêu chuẩn màu truyền thống
 
 Đây là tiêu chuẩn không gian màu sắc quy định bởi International Electrotechnical Commission (IEC)
