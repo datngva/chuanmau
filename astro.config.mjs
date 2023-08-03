@@ -2,7 +2,6 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 import { defineConfig } from 'astro/config';
-import AstroPWA from '@vite-pwa/astro'
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
@@ -31,7 +30,6 @@ export default defineConfig({
   },
 
   integrations: [
-    [AstroPWA()],
     tailwind({
       config: {
         applyBaseStyles: false,
