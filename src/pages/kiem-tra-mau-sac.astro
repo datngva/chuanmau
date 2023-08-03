@@ -2,8 +2,8 @@
 import { SITE } from '~/config.mjs';
 import Headline from '~/components/blog/Headline.astro';
 import Layout from '~/layouts/PageLayout.astro';
-import heroImage from "/src/assets/images/Calibration_Print_Adobe_RGB.jpg";
-import { Picture } from "@astrojs/image/components";
+import heroImage from '/src/assets/images/Calibration_Print_Adobe_RGB.jpg';
+import { Picture } from '@astrojs/image/components';
 const meta = {
   title: SITE.title,
   description: SITE.description,
@@ -13,20 +13,15 @@ const meta = {
 
 <Layout {meta}>
   <section class="px-6 mt-16 mb-16 mx-auto max-w-4xl">
-    <Headline
-      subtitle="Chúng tôi chuyên cung cấp nội dung chuyên môn và đánh giá uy tín."
-    >
-      Kiểm tra màu sắc
-    </Headline>
+    <Headline subtitle="Chúng tôi chuyên cung cấp nội dung chuyên môn và đánh giá uy tín.">Kiểm tra màu sắc</Headline>
   </section>
   <Picture
-      src={heroImage}
-      alt="cân màu màn hình hà nội"
-      widths={[200, 400, 600, 1920]}
-      aspectRatio="4:3"
-      sizes="(max-width: 1920px) 100vw, 620px"
-      loading="eager"
-      format="avif"
+    src={heroImage}
+    alt="cân màu màn hình hà nội"
+    widths={[200, 400, 600, 800, 1600, 1920]}
+    aspectRatio="4:3"
+    sizes="(max-width: 1920px) 100vw, 620px"
+    loading="eager"
+    format="avif"
   />
-
 </Layout>
