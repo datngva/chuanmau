@@ -11,6 +11,8 @@ tags:
   - canmaumanhinh
 canonical: https://chuanmau.com/cai-dat-icc-profile-tren-window-10
 ---
+import DListItem from "../../components/widgets/DListItem.astro";
+import ToggleTheme from "../../components/common/ToggleTheme.astro";
 
 Sau khi cân chỉnh màn hình chuẩn màu chúng tôi sẽ xuất file và lưu lại cho các bạn một file có đuôi là ICC. Vậy ICC Profile là gì và cách sử dụng nó như thế nào?
 

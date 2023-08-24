@@ -11,6 +11,8 @@ tags:
   - canmaumanhinh
 canonical: https://chuanmau.com/huong-dan-cai-dat-icc-profile-tren-macOS
 ---
+import DListItem from "../../components/widgets/DListItem.astro";
+import ToggleTheme from "../../components/common/ToggleTheme.astro";
 
 ## Bước 1: Truy cập Tiện ích ColorSync
 macOS đi kèm với một công cụ tích hợp gọi là "Tiện ích ColorSync," cho phép bạn quản lý các profile màu. Để truy cập vào công cụ này, làm theo các bước sau:

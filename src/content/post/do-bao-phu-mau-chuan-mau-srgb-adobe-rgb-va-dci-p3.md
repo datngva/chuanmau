@@ -9,6 +9,8 @@ tags:
   - canmaumanhinh
 canonical: https://chuanmau.com/do-bao-phu-mau-chuan-mau-srgb-adobe-rgb-va-dci-p3
 ---
+import DListItem from "../../components/widgets/DListItem.astro";
+import ToggleTheme from "../../components/common/ToggleTheme.astro";
 
 ## Độ Bao Phủ Màu Là Gì?
 
