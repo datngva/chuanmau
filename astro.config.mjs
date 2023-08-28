@@ -9,8 +9,10 @@ import partytown from '@astrojs/partytown';
 import { readingTimeRemarkPlugin } from './src/utils/frontmatter.mjs';
 import { SITE } from './src/config.mjs';
 import compress from "astro-compress";
+import robotsTxt from "astro-robots-txt";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const whenExternalScripts = (items = []) => SITE.googleAnalyticsId ? Array.isArray(items) ? items.map(item => item()) : [items()] : [];
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -31,7 +33,7 @@ export default defineConfig({
     config: {
       forward: ['dataLayer.push']
     }
-  })), compress()],
+  })), compress(), robotsTxt()],
   vite: {
     resolve: {
       alias: {
