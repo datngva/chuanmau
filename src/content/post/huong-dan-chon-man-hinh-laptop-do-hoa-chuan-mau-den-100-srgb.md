@@ -11,8 +11,6 @@ tags:
   - latop
 canonical: https://chuanmau.com/huong-dan-chon-man-hinh-laptop-do-hoa-chuan-mau-den-100-srgb/
 ---
-import DListItem from "../../components/widgets/DListItem.astro";
-import ToggleTheme from "../../components/common/ToggleTheme.astro";
 
 ## Lựa Chọn Màn Hình
 
